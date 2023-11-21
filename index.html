@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2 on css grid</title>
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        #container{
+          display: grid;
+          grid-template-rows: 100px 100px 100px ;
+          grid-template-columns: 100px 100px 100px;
+          grid-row-gap: 20px;
+          grid-column-gap: 20px;
+          padding: 30px;
+          
+          grid-template-areas: 
+          
+          "a b c"
+          "d e f"
+          "g h i";
+        
+            
+        }
+        .main{
+            grid-area:c;
+        }
+        .main2{
+            grid-area:g;
+        }
+        .main3{
+            grid-area: a;
+        }
+
+        
+
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+    <div class="main">
+
+        <img
+            src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80">
+    </div>
+    <div class="main1">
+        <img
+            src="https://images7.alphacoders.com/133/1338270.png">
+    </div>
+    <div class="main2">
+        <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/025/284/015/small_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg">
+    </div>
+    <div class="main3">
+        <img
+            src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1700524800&semt=sph">
+    </div>
+    <div class="main4">
+
+        <img src="https://5.imimg.com/data5/SELLER/Default/2021/1/NJ/GN/AS/75393646/3d-waterfall-nature-wallpaper.jpg">
+    </div>
+    <div class=main5>
+        <img src="https://assets.hongkiat.com/uploads/nature-photography/autumn-poolside.jpg">
+    </div>
+    <div class="main6">
+        <img
+            src="https://img.freepik.com/premium-photo/free-photo-vestrahorn-mountains-stokksnes-iceland_924629-6543.jpg">
+    </div>
+    <div class="main7">
+        <img src="https://d150u0abw3r906.cloudfront.net/wp-content/uploads/2022/04/image27-1.png">
+    </div>
+    <div class="main8">
+        <img
+            src="https://www.wallpapers13.com/wp-content/uploads/2016/05/Nature-landscape-beautiful-mountain-flowers-and-purple-colored-rocks-green-grass-sun-rays-Desktop-Wallpaper-HD-1920x1200.jpg">
+    </div>
+    </div>
+</body>
+
+</html>
